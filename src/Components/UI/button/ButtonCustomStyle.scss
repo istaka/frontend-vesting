@@ -1,0 +1,82 @@
+@use '../../../Assets/Theme/_var.scss' as *;
+
+.ant-btn {
+    font-family: $baseFont;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 36px;
+    border-radius: 30px;
+    background: $primary;
+    font-size: 12px;
+    color: $white;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: all .25s;
+    line-height: 30px;
+    border: 0px;
+    box-shadow: none;
+    border: 1px solid $primary;
+    min-width: 104px;
+    // svg{
+    //     path{
+
+    //     }
+    // }
+    &:hover,
+    &:focus {
+        border: 1px solid $primary;
+        color: $white;
+        background: $primary;
+
+        svg {
+            path {
+                fill: $white;
+            }
+        }
+    }
+
+
+    &:disabled {}
+
+    &.secondary {
+        background: $white;
+        border-radius: 30px;
+        border: 1px solid $basecolor;
+        color: $basecolor;
+
+        svg {
+            path {
+                fill: $basecolor;
+            }
+        }
+
+        &:hover,
+        &:focus {
+            background-color: $basecolor;
+            color: $white;
+
+            svg {
+                path {
+                    fill: $white;
+                }
+            }
+        }
+    }
+
+    .leftIcon {
+        width: 18px;
+        height: 18px;
+        margin-right: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    @media (max-width:1679px) {
+        padding-left: 7px;
+        padding-right: 15px;
+    }
+}

@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+$baseFont: "Poppins", sans-serif;
+
+$white: #ffffff;
+$white2: #f7f9fc;
+$white3: #d9e0ef;
+$white4: #e7eefe;
+
+$black: #000000;
+$primary: #153864;
+$primary2: #f5954e;
+$secondary: #8a3a37;
+$secondary2: #f3eaeb;
+$secondary3: #a3a3a3;
+$secondary4: #727272;
+$secondary5: #292c2e;
+$textColor: #0e2150;
+$textColor2: #707070;
+
+$clrececec : #ececec;
+$clr999999 : #999999;
+
+$borderClr: rgba(38, 38, 38, 0.2);
+$borderClr2: #252525;
+$borderClr3: #d9d8d8;
+
+$green: #7bbb3f;
+$blue: #2797d1;
+$red: #c3292d;
+$orange: #f68630;
+$skyblue: #01cde4;
+$yellowdark: #fbbb10;
+$reddark: #e54c40;
+
+$btnGradient: linear-gradient(270deg, #fde679 -0.16%, #f26c33 86.5%);
+
+$gradient: linear-gradient(276deg, #feb84d 16.17%, #ef7027 95.08%);
+$gradient2: linear-gradient(0deg, rgba(0, 0, 0, 0) -29.92%, #161616 97.38%);
+$gradient3: linear-gradient(90deg, #fde076 1.57%, rgba(242, 107, 51, 0) 101.1%);
+$gradient4: linear-gradient(261.01deg, #212122 2.84%, rgba(0, 0, 0, 0) 165.67%);
+
+$boxShadow: 0 1.2rem 1.6rem -0.4rem rgba(255, 255, 255, 0.2),
+  0 0.4rem 0.6rem -0.2rem rgba(255, 255, 255, 0.15);
+$boxShadow2: 0 1rem 1.4rem rgba(255, 255, 255, 0.06);
+$boxShadow3: inset 3px 17px 37px rgba(3, 3, 3, 0.6),
+  inset 0px 0px 5px rgba(255, 255, 255, 0.1);
+
+// z indexes
+$header: 988;
+$sidebar: $header + 3;
+$sidebar_overlay: $sidebar - 2;
+$modal: 1056;
+$loader: 1090;
+
+
+//Pagination
+$bordercolor: #373a43;
+$basecolor: #438fff;
+$baseborderlight: rgb(7, 91, 142);
+$transferBasecolorFade: #4dc24724;
+$transferBasecolor: #4DC247;
+$transferBasefade: rgba(77, 194, 71, 0.1);
+$transferbaseborderlight: #4DC247;
+$transferBaseDark: #399234;
+$tokenizationBasecolor: #F23051;
+$tokenizationbaseborderlight: #F23051;

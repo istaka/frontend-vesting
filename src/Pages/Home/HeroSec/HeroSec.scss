@@ -1,0 +1,68 @@
+@import "../../../Assets/Theme/_var.scss";
+
+.hero-sec {
+  background-color: $white2;
+  padding: 7.4rem 0 13.85rem;
+
+  @media (max-width: 1679px) {
+    padding: 4.5rem 0 11.5rem;
+  }
+
+  @media (max-width: 1368px) {
+    padding: 3rem 0 10rem;
+  }
+
+  .row {
+    align-items: center;
+  }
+
+  &__content {
+    padding-top: 6.5rem;
+
+    @media (max-width: 1368px) {
+      padding-top: 4rem;
+    }
+    h1 {
+      color: $primary;
+      font-weight: 700;
+      margin-bottom: 1.5rem;
+
+      @media (max-width: 1368px) {
+        margin-bottom: 1rem;
+      }
+    }
+  }
+
+  &__img {
+    text-align: right;
+    padding-right: 11rem;
+
+    @media (max-width: 1679px) {
+      padding-right: 5rem;
+    }
+
+    @media (max-width: 991px) {
+      padding-right: 0;
+    }
+
+    @media (max-width: 767px) {
+      text-align: center;
+    }
+
+    img {
+      @media (max-width: 1679px) {
+        max-width: 45rem;
+      }
+
+      @media (max-width: 1368px) {
+        max-width: 38rem;
+      }
+      @media (max-width: 991px) {
+        max-width: 32rem;
+      }
+      @media (max-width: 575px) {
+        max-width: 28rem;
+      }
+    }
+  }
+}

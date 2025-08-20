@@ -1,0 +1,52 @@
+@import "../../../Assets/Theme/_var.scss";
+
+.custom-button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  color: $white;
+  font-size: 1.6rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  border-radius: 3rem;
+  padding: 1.7rem 3.7rem;
+  background: $primary;
+  border: 0.1rem solid $primary;
+  transition: all linear 0.3s;
+
+  &:hover:not(:disabled) {
+    background: $white;
+    color: $primary;
+  }
+  @media (max-width: 1679px) {
+    font-size: 1.4rem;
+    padding: 1rem 2rem;
+  }
+
+  @media (max-width: 575px) {
+    font-size: 1rem;
+    padding: 0.75rem 1rem;
+  }
+
+  &.outline-btn {
+    color: $secondary;
+    border-color: $secondary;
+    background: $secondary2;
+
+    &:hover:not(:disabled) {
+      background: $secondary;
+      color: $white;
+    }
+  }
+
+  &:disabled {
+    color: $white;
+    cursor: not-allowed;
+    background: $secondary4;
+    border-color: $secondary4;
+  }
+
+  .btn-icon {
+    margin-left: 1rem;
+  }
+}

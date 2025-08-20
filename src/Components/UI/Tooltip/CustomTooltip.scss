@@ -1,0 +1,17 @@
+@import "../../../Assets/Theme/_var.scss";
+
+.custom-tooltip {
+  &.tooltip {
+    .tooltip-inner {
+      background-color: $primary;
+      padding: 0.5rem 1rem;
+      font-size: 1.3rem;
+    }
+
+    .tooltip-arrow {
+      &::before {
+        border-bottom-color: $primary;
+      }
+    }
+  }
+}

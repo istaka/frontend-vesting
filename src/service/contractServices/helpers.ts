@@ -1,0 +1,246 @@
+/**
+ * Copyright 2023 Circle Internet Group, Inc. All rights reserved.
+ *
+ * SPDX-License-Identifier: Apache-2.0
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+import { ethers } from "ethers";
+
+import { ecsign } from "ethereumjs-util";
+// import { ethers, keccak256, toUtf8Bytes } from "ethers";
+// import { AnyFiatTokenV2Instance } from "../../../@types/AnyFiatTokenV2Instance";
+// import { MockERC1271WalletInstance } from "../../../@types/generated";
+// import { Signature, ecSign, strip0x } from "../../helpers";
+// import { packSignature } from "../../helpers";
+
+export enum WalletType {
+  EOA = "EOA",
+  AA = "AA",
+}
+
+export enum SignatureBytesType {
+  Packed = "Packed", // Signature provided in the format of a single byte array, packed in the order of r, s, v for EOA wallets
+  Unpacked = "Unpacked", // Signature values provided as separate inputs (v, r, s)
+}
+
+export interface TestParams {
+  version: number;
+  //   getFiatToken: () => AnyFiatTokenV2Instance;
+  getDomainSeparator: () => string;
+  signerWalletType: WalletType;
+  signatureBytesType: SignatureBytesType;
+  //   getERC1271Wallet: (owner: string) => Promise<MockERC1271WalletInstance>;
+}
+
+export function makeDomainSeparator(
+  name: string,
+  version: string,
+  chainId: number,
+  verifyingContract: string
+): string {
+  return ethers.utils.keccak256(
+    new ethers.utils.AbiCoder().encode(
+      ["bytes32", "bytes32", "bytes32", "uint256", "address"],
+      [
+        ethers.utils.keccak256(
+          "EIP712Domain(string name,string version,uint256 chainId,address verifyingContract)"
+        ),
+        ethers.utils.keccak256(name),
+        ethers.utils.keccak256(version),
+        chainId,
+        verifyingContract,
+      ]
+    )
+  );
+}
+
+export function prepareSignature(
+  signature: Signature,
+  signatureBytesType: SignatureBytesType
+): Array<string | number | String> {
+  if (signatureBytesType == SignatureBytesType.Unpacked) {
+    return [signature.v, signature.r, signature.s];
+  } else {
+    return [packSignature(signature)];
+  }
+}
+
+export function ecSign(digest: string, privateKey: string): Signature {
+  const { v, r, s } = ecsign(
+    bufferFromHexString(digest),
+    bufferFromHexString(privateKey)
+  );
+
+  return { v, r: hexStringFromBuffer(r), s: hexStringFromBuffer(s) };
+}
+
+export interface Signature {
+  v: number;
+  r: string;
+  s: string;
+}
+export function bufferFromHexString(hex: string): Buffer {
+  return Buffer.from(strip0x(hex), "hex");
+}
+export function hexStringFromBuffer(buf: Buffer): string {
+  return "0x" + buf.toString("hex");
+}
+export function strip0x(v: string): string {
+  return v.replace(/^0x/, "");
+}
+
+export function packSignature(signature: Signature): String {
+  const { v, r, s } = signature;
+  return ethers.utils.solidityPack(["bytes32", "bytes32", "uint8"], [r, s, v]);
+}
+
+export const transferWithAuthorizationTypeHash = ethers.utils.keccak256(
+  ethers.utils.toUtf8Bytes("TransferWithAuthorization(address from,address to,uint256 value,uint256 validAfter,uint256 validBefore,bytes32 nonce)")
+);
+
+export const receiveWithAuthorizationTypeHash = ethers.utils.keccak256(
+  ethers.utils.toUtf8Bytes("ReceiveWithAuthorization(address from,address to,uint256 value,uint256 validAfter,uint256 validBefore,bytes32 nonce)")
+);
+
+export const cancelAuthorizationTypeHash = ethers.utils.keccak256(
+  ethers.utils.toUtf8Bytes("CancelAuthorization(address authorizer,bytes32 nonce)")
+);
+
+export const permitTypeHash = ethers.utils.keccak256(
+  ethers.utils.toUtf8Bytes("Permit(address owner,address spender,uint256 value,uint256 nonce,uint256 deadline)")
+);
+
+/**
+ * Overloaded method signatures
+ */
+export const permitSignature =
+  "permit(address,address,uint256,uint256,uint8,bytes32,bytes32)";
+
+export const permitSignatureV22 =
+  "permit(address,address,uint256,uint256,bytes)";
+
+export const transferWithAuthorizationSignature =
+  "transferWithAuthorization(address,address,uint256,uint256,uint256,bytes32,uint8,bytes32,bytes32)";
+
+export const transferWithAuthorizationSignatureV22 =
+  "transferWithAuthorization(address,address,uint256,uint256,uint256,bytes32,bytes)";
+
+export const receiveWithAuthorizationSignature =
+  "receiveWithAuthorization(address,address,uint256,uint256,uint256,bytes32,uint8,bytes32,bytes32)";
+
+export const receiveWithAuthorizationSignatureV22 =
+  "receiveWithAuthorization(address,address,uint256,uint256,uint256,bytes32,bytes)";
+
+export const cancelAuthorizationSignature =
+  "cancelAuthorization(address,bytes32,uint8,bytes32,bytes32)";
+
+export const cancelAuthorizationSignatureV22 =
+  "cancelAuthorization(address,bytes32,bytes)";
+
+/**
+ * Signature generation helper functions
+ */
+export function signTransferAuthorization(
+  from: string,
+  to: string,
+  value: number | string,
+  validAfter: number | string,
+  validBefore: number | string,
+  nonce: string,
+  domainSeparator: string,
+  privateKey: string
+): Signature {
+  return signEIP712(
+    domainSeparator,
+    transferWithAuthorizationTypeHash,
+    ["address", "address", "uint256", "uint256", "uint256", "bytes32"],
+    [from, to, value, validAfter, validBefore, nonce],
+    privateKey
+  );
+}
+
+export function signReceiveAuthorization(
+  from: string,
+  to: string,
+  value: number | string,
+  validAfter: number | string,
+  validBefore: number | string,
+  nonce: string,
+  domainSeparator: string,
+  privateKey: string
+): Signature {
+  return signEIP712(
+    domainSeparator,
+    receiveWithAuthorizationTypeHash,
+    ["address", "address", "uint256", "uint256", "uint256", "bytes32"],
+    [from, to, value, validAfter, validBefore, nonce],
+    privateKey
+  );
+}
+
+export function signCancelAuthorization(
+  signer: string,
+  nonce: string,
+  domainSeparator: string,
+  privateKey: string
+): Signature {
+  return signEIP712(
+    domainSeparator,
+    cancelAuthorizationTypeHash,
+    ["address", "bytes32"],
+    [signer, nonce],
+    privateKey
+  );
+}
+
+export function signPermit(
+  owner: string,
+  spender: string,
+  value: number | string,
+  nonce: number,
+  deadline: number | string,
+  domainSeparator: string,
+  privateKey: string
+): Signature {
+  return signEIP712(
+    domainSeparator,
+    permitTypeHash,
+    ["address", "address", "uint256", "uint256", "uint256"],
+    [owner, spender, value, nonce, deadline],
+    privateKey
+  );
+}
+
+export function signEIP712(
+  domainSeparator: string,
+  typeHash: string,
+  types: string[],
+  parameters: (string | number)[],
+  privateKey: string
+): Signature {
+  const digest = ethers.utils.keccak256(
+    "0x1901" +
+      strip0x(domainSeparator) +
+      strip0x(
+        ethers.utils.keccak256(
+          new ethers.utils.AbiCoder().encode(
+            ["bytes32", ...types],
+            [typeHash, ...parameters]
+          )
+        )
+      )
+  );
+
+  return ecSign(digest, privateKey);
+}

@@ -1,0 +1,134 @@
+@import "../../../Assets/Theme/_var.scss";
+
+.common-select {
+  .react-select {
+    &__control {
+      padding: 1.7rem 2.4rem;
+      border: 0.1rem solid $secondary;
+      background: $secondary2;
+      min-height: fit-content;
+      border-radius: 3rem;
+      // transition: all linear 0.25s;
+
+      @media (max-width: 1679px) {
+        padding: 0.85rem 2rem;
+      }
+
+      @media (max-width: 575px) {
+        padding: 0.45rem 1rem;
+      }
+
+      &--is-focused {
+        box-shadow: none;
+      }
+
+      &:hover {
+        border-color: $secondary;
+      }
+
+      &--menu-is-open {
+        .react-select__indicator {
+          transform: rotate(180deg);
+        }
+      }
+    }
+
+    &__input-container,
+    &__placeholder,
+    &__single-value {
+      margin: 0;
+      color: $secondary;
+      font-size: 1.6rem;
+      font-weight: 500;
+      text-transform: capitalize;
+      margin-right: 1rem;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+
+      @media (max-width: 1679px) {
+        font-size: 1.4rem;
+      }
+      @media (max-width: 767px) {
+        margin-right: 0.5rem;
+      }
+      @media (max-width: 575px) {
+        font-size: 1rem;
+      }
+    }
+
+    &__value-container,
+    &__indicator {
+      padding: 0;
+    }
+
+    &__indicator-separator {
+      display: none;
+    }
+
+    &__indicator {
+      background-image: url(../../../Assets/Icon/down_icon.svg);
+      background-repeat: no-repeat;
+      background-size: 100%;
+      width: 1.5rem;
+      height: 0.9rem;
+      svg {
+        display: none;
+      }
+      @media (max-width: 767px) {
+        width: 1rem;
+        height: 0.7rem;
+      }
+    }
+
+    &__menu {
+      z-index: 3;
+      border-radius: 0.2rem;
+      background: $white;
+      margin-top: 0.2rem;
+
+      &-list {
+        padding: 0;
+      }
+    }
+
+    &__option {
+      padding: 1rem 2.4rem;
+      color: $secondary;
+      font-size: 1.6rem;
+      font-weight: 400;
+      text-transform: capitalize;
+
+      @media (max-width: 1679px) {
+        font-size: 1.4rem;
+        padding: 0.85rem 2rem;
+      }
+
+      @media (max-width: 575px) {
+        font-size: 1.2rem;
+        padding: 0.5rem 1rem;
+      }
+      &:not(:last-child) {
+        border-bottom: 0.1rem solid rgba($secondary, 0.15);
+      }
+
+      @media (max-width: 767px) {
+        padding: 1.2rem;
+        font-size: 1.2rem;
+      }
+
+      &--is-selected,
+      &:active {
+        background-color: rgba($secondary, 0.15) !important;
+        color: $secondary !important;
+      }
+
+      &--is-focused {
+        background-color: transparent;
+      }
+      &:hover {
+        background-color: rgba($secondary, 0.05);
+      }
+    }
+  }
+}

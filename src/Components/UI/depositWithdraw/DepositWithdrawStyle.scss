@@ -1,0 +1,60 @@
+/** @format */
+
+@use "../../../Assets/Theme/_var.scss" as *;
+
+.depositcard {
+  background-color: $white;
+  padding: 14px;
+  border-radius: 15px;
+  text-align: center;
+  // margin-bottom: 20px;
+  height: 100%;
+  border: 1px solid grey;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  @media (max-width: 1679px) {
+    padding: 14px 10px;
+  }
+
+  &__detail {
+    .balbox-row {
+      flex-direction: column;
+
+      >div {
+        flex: 0 0 100%;
+        max-width: 100%;
+      }
+    }
+
+    p {
+      color: $secondary5;
+      font-size: 16px;
+      font-weight: 500;
+      margin: 10px 0;
+    }
+  }
+
+  &__detail__action {
+    text-align: center;
+
+    .ant-btn {
+      min-width: 110px;
+      margin: 15px 5px 0;
+
+      @media (max-width: 1679px) {
+        min-width: 108px;
+        margin: 10px 2px 0;
+      }
+    }
+  }
+
+  &__coin {
+    width: 55px;
+    height: 55px;
+    // margin: auto;
+    line-height: 55px;
+  }
+}

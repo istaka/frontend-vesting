@@ -1,0 +1,21 @@
+@import "../../../../Assets/Theme/_var.scss";
+
+.label {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: $white;
+  display: flex;
+  margin-bottom: 1rem;
+  align-items: center;
+  line-height: 2.6rem;
+
+  @media (max-width: 1679px) {
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+  }
+  @media (max-width: 767px) {
+    font-size: 1.2rem;
+    line-height: 2rem;
+    margin-bottom: 0.5rem;
+  }
+}

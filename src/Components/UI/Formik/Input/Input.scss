@@ -1,0 +1,71 @@
+@import "../../../../Assets/Theme/_var.scss";
+
+.input {
+  margin-bottom: 2rem;
+
+  @media (max-width: 1679px) {
+    margin-bottom: 1.5rem;
+  }
+
+  @media (max-width: 767px) {
+    margin-bottom: 1rem;
+  }
+  .inner {
+    position: relative;
+
+    input {
+      border: 0;
+      outline: none;
+      // font-size: 1.6rem;
+      font-size: 1.4rem;
+      font-weight: 400;
+      color: $white;
+      border-radius: 3.6rem;
+      transition: 200ms ease-in-out;
+      padding: 1.5rem 3rem;
+      width: 100%;
+      // background: linear-gradient(
+      //   95.8deg,
+      //   #292c2e 4.61%,
+      //   rgba(32, 39, 44, 1) 128.29%
+      // );
+      background: $black;
+
+      &::placeholder {
+        color: $secondary4;
+      }
+
+      &.icon_input {
+        padding-right: 6rem;
+
+        @media (max-width: 1679px) {
+          padding-right: 5rem;
+        }
+
+        @media (max-width: 1679px) {
+          padding-right: 4rem;
+        }
+      }
+
+      @media (max-width: 1679px) {
+        font-size: 1.4rem;
+      }
+
+      @media (max-width: 767px) {
+        font-size: 1.2rem;
+        padding: 1.3rem 2rem;
+      }
+    }
+
+    .icon {
+      position: absolute;
+      right: 2rem;
+      top: 50%;
+      transform: translateY(-50%);
+
+      @media (max-width: 767px) {
+        right: 1rem;
+      }
+    }
+  }
+}

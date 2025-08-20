@@ -1,0 +1,19 @@
+@import "../../../Assets/Theme/_var.scss";
+
+.primary-layout {
+  overflow-x: hidden;
+  background: $white2;
+
+  &__inner {
+    min-height: 100vh;
+    padding-top: 9.5rem;
+
+    @media (max-width: 1679px) {
+      padding-top: 6.9rem;
+    }
+
+    @media (max-width: 575px) {
+      padding-top: 5.4rem;
+    }
+  }
+}

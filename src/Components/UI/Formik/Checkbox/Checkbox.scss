@@ -1,0 +1,39 @@
+@import "../../../../Assets/Theme/_var.scss";
+
+.custom-checkbox {
+  .form-check-input {
+    background: linear-gradient($black, $black) padding-box,
+      $gradient border-box;
+    border: 0.1rem solid transparent;
+    // width: 1.4rem;
+    // height: 1.4rem;
+
+    @media (max-width: 767px) {
+      width: 1.4rem;
+      height: 1.4rem;
+      margin-top: 0.7rem;
+    }
+
+    &:checked {
+      background: transparent;
+      border-color: $orange;
+      background-image: url(../../../../Assets/Icon/check.svg);
+      background-position: center;
+    }
+
+    &:focus {
+      box-shadow: none;
+    }
+  }
+  .form-check-label {
+    font-size: 1.6rem;
+
+    @media (max-width: 1679px) {
+      font-size: 1.4rem;
+    }
+
+    @media (max-width: 767px) {
+      font-size: 1.2rem;
+    }
+  }
+}

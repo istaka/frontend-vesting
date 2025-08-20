@@ -1,0 +1,94 @@
+@use "../../../Assets/Theme/_var.scss" as *;
+
+.modal-backdrop.show.fade.transaction_modal_bckdrop {
+  backdrop-filter: blur(4px);
+  background-color: #1649d600;
+  // z-index: 1057;
+  z-index: 1055;
+}
+
+.transaction_modal {
+  text-align: center;
+  z-index: 9999999999999;
+
+  .modal-dialog {
+    margin: auto;
+
+    .modal-content {
+      border-radius: 1rem;
+      border: 1px solid $primary;
+      background-color: white;
+
+      .modal-header {
+        display: flex;
+        align-items: center;
+        border-bottom: 0;
+        padding: 1.4rem 2rem;
+        justify-content: space-between;
+
+        .modal-title {
+          font-size: 2rem;
+
+          color: black;
+        }
+
+        button {
+          background-color: transparent;
+          border: none;
+          outline: none;
+          width: 24px;
+          height: 24px;
+          padding: 0;
+
+          svg {
+            path {
+              fill: black;
+
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .lottie_animation {
+    max-width: 150px;
+    margin: 0 auto;
+
+    svg {
+      path {
+        stroke-width: 9px;
+      }
+    }
+
+    &.tick_animation {
+      svg {
+        path {
+          stroke-width: 80px;
+        }
+      }
+    }
+  }
+
+  .transaction_text {
+    font-size: 16px;
+    margin-top: 20px;
+    font-weight: 400;
+  }
+
+  .url_box {
+    margin: 10px 0;
+  }
+
+  .transaction_action_btn {
+    margin-top: 2rem;
+
+    .row {
+      margin: -0.5rem -1rem;
+
+      >div {
+        padding: 0.5rem 1rem;
+      }
+    }
+  }
+}

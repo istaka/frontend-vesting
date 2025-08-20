@@ -1,0 +1,32 @@
+@import "../../../Assets/Theme/_var.scss";
+
+@keyframes shimmer {
+  from {
+    left: -20%;
+    opacity: 0.4;
+  }
+
+  to {
+    left: -70%;
+    opacity: 0.8;
+  }
+}
+
+.shimmer {
+  position: relative;
+  overflow: hidden;
+  // border-radius: 0.8rem;
+
+  &::after {
+    content: "";
+    width: 200%;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(red, 0.1), rgba(red, 0.4));
+    display: block;
+    border-radius: inherit;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: shimmer 1s ease-in-out infinite alternate;
+  }
+}
