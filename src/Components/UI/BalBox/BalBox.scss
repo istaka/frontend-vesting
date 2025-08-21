@@ -1,0 +1,27 @@
+@use '../../../Assets/Theme/_var.scss' as *;
+
+// .balbox-row {
+//     > div {
+//         margin-bottom: 20px;
+//     }
+// }
+.bal-box {
+    background: $primary;
+    box-shadow: inset 0px 1px 6px #00000021;
+    border-radius: 8px;
+    padding: 12px 10px;
+    margin: 10px 0;
+
+    p {
+        font-weight: 500;
+        font-size: 14px;
+        margin: 0 0 6px;
+        color: $secondary5;
+    }
+
+    span {
+        font-weight: 500;
+        font-size: 14px;
+        color: $textColor;
+    }
+}

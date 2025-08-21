@@ -1,0 +1,67 @@
+@import "../../../Assets/Theme/_var.scss";
+
+@keyframes loader-animation {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0;
+  }
+}
+
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 111;
+  background-color: rgba($black, 0.15);
+  backdrop-filter: blur(5px);
+  transition: all ease-in-out 0.3s;
+
+  &--inner {
+    z-index: 1;
+    position: absolute;
+    background-color: $white;
+  }
+
+  &__spinner {
+    border: 0 solid transparent;
+    border-radius: 50%;
+    position: relative;
+    display: inline-block;
+    width: 5rem;
+    height: 5rem;
+    color: inherit;
+    vertical-align: middle;
+    pointer-events: none;
+    &:before,
+    &:after {
+      content: "";
+      border: 0.5rem solid $primary;
+      border-radius: 50%;
+      width: inherit;
+      height: inherit;
+      position: absolute;
+      top: 0;
+      left: 0;
+      animation: loader-animation 1s linear infinite;
+      opacity: 0;
+    }
+    &:before {
+      animation-delay: 1s;
+    }
+    &:after {
+      animation-delay: 0.5s;
+    }
+  }
+}

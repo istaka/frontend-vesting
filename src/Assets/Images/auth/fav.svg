@@ -1,0 +1,446 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="69" height="69" viewBox="0 0 69 69">
+  <defs>
+    <clipPath id="clip-path">
+      <circle id="Ellipse_155" data-name="Ellipse 155" cx="34.5" cy="34.5" r="34.5" transform="translate(1307 285)" fill="rgba(0,0,0,0.51)"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.188" y1="0.188" x2="0.924" y2="0.924" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#d99027"/>
+      <stop offset="0.04" stop-color="#e4b044"/>
+      <stop offset="0.08" stop-color="#eecc5d"/>
+      <stop offset="0.12" stop-color="#f5e06f"/>
+      <stop offset="0.16" stop-color="#f9ec79"/>
+      <stop offset="0.2" stop-color="#faf07d"/>
+      <stop offset="0.28" stop-color="#e6bc4a"/>
+      <stop offset="0.34" stop-color="#d89928"/>
+      <stop offset="0.36" stop-color="#ca8e29"/>
+      <stop offset="0.4" stop-color="#b67e29"/>
+      <stop offset="0.43" stop-color="#aa752a"/>
+      <stop offset="0.47" stop-color="#a6722a"/>
+      <stop offset="0.51" stop-color="#ab772e"/>
+      <stop offset="0.56" stop-color="#b88638"/>
+      <stop offset="0.61" stop-color="#ce9f4a"/>
+      <stop offset="0.67" stop-color="#ecc263"/>
+      <stop offset="0.68" stop-color="#f5cc6a"/>
+      <stop offset="0.72" stop-color="#f2c763"/>
+      <stop offset="0.78" stop-color="#eab850"/>
+      <stop offset="0.85" stop-color="#dca032"/>
+      <stop offset="0.87" stop-color="#d89928"/>
+      <stop offset="1" stop-color="#f5cc6a"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.982" y1="0.004" x2="0.277" y2="0.71" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" x1="0.111" y1="0.111" x2="0.908" y2="0.908" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-4" x1="0.5" y1="1.363" x2="0.5" y2="-0.259" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#875121"/>
+      <stop offset="0.03" stop-color="#946024"/>
+      <stop offset="0.09" stop-color="#ad7e2b"/>
+      <stop offset="0.12" stop-color="#b6892d"/>
+      <stop offset="0.24" stop-color="#b98d31"/>
+      <stop offset="0.35" stop-color="#c0983c"/>
+      <stop offset="0.45" stop-color="#cdab4e"/>
+      <stop offset="0.55" stop-color="#dfc669"/>
+      <stop offset="0.66" stop-color="#f6e88a"/>
+      <stop offset="0.68" stop-color="#fdf294"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-5" x1="0" y1="0.5" x2="1" y2="0.5" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-6" x1="-1132.678" y1="261.414" x2="-1131.304" y2="261.867" gradientUnits="objectBoundingBox">
+      <stop offset="0.2" stop-color="#faf07d"/>
+      <stop offset="0.68" stop-color="#f5cc6a"/>
+      <stop offset="1" stop-color="#f5cc6a"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-7" x1="-2542.368" y1="-573.513" x2="-2540.985" y2="-573.059" xlink:href="#linear-gradient-6"/>
+    <linearGradient id="linear-gradient-8" x1="-1114.102" y1="206.591" x2="-1112.718" y2="207.04" xlink:href="#linear-gradient-6"/>
+    <linearGradient id="linear-gradient-9" x1="-2524.085" y1="-628.513" x2="-2522.712" y2="-628.06" xlink:href="#linear-gradient-6"/>
+    <clipPath id="clip-path-2">
+      <ellipse id="Ellipse_75" data-name="Ellipse 75" cx="26.297" cy="25.897" rx="26.297" ry="25.897" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-10" x1="815.971" y1="-868.658" x2="851.11" y2="-864.709" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-11" x1="0.488" y1="-0.127" x2="0.515" y2="1.161" gradientUnits="objectBoundingBox">
+      <stop offset="0.05" stop-color="#d89928"/>
+      <stop offset="0.22" stop-color="#d99427"/>
+      <stop offset="0.57" stop-color="#d99027"/>
+      <stop offset="0.59" stop-color="#ca8728"/>
+      <stop offset="0.63" stop-color="#b67b29"/>
+      <stop offset="0.67" stop-color="#aa742a"/>
+      <stop offset="0.71" stop-color="#a6722a"/>
+      <stop offset="0.75" stop-color="#ab762a"/>
+      <stop offset="0.8" stop-color="#ba8229"/>
+      <stop offset="0.86" stop-color="#d39528"/>
+      <stop offset="0.87" stop-color="#d89928"/>
+      <stop offset="0.93" stop-color="#f5cc6a"/>
+      <stop offset="1" stop-color="#f5cc6a"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-12" x1="807.86" y1="-586.047" x2="842.999" y2="-583.394" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-13" x1="813.276" y1="-713.822" x2="848.415" y2="-710.581" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-14" x1="810.582" y1="-630.569" x2="845.721" y2="-627.71" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-15" x1="0.889" y1="0.102" x2="-0.548" y2="1.141" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#faaf40"/>
+      <stop offset="0.61" stop-color="#f9da35"/>
+      <stop offset="0.94" stop-color="#f9ec31"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-16" x1="-0.064" y1="0.624" x2="1.802" y2="0.214" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#faaf40"/>
+      <stop offset="0.19" stop-color="#faaf40"/>
+      <stop offset="0.6" stop-color="#f9da35"/>
+      <stop offset="0.82" stop-color="#f9ec31"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-17" x1="0.501" y1="0.017" x2="0.486" y2="1.051" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#faaf40"/>
+      <stop offset="0.65" stop-color="#f9da35"/>
+      <stop offset="1" stop-color="#f9ec31"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-18" x1="0.922" y1="0.231" x2="0.111" y2="0.99" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#faaf40"/>
+      <stop offset="0.43" stop-color="#f5cf3a"/>
+      <stop offset="0.72" stop-color="#f3e137"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-19" x1="0.039" y1="0.388" x2="1.658" y2="0.763" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#faaf40"/>
+      <stop offset="0.34" stop-color="#f9be3a"/>
+      <stop offset="0.82" stop-color="#f7d034"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-20" x1="0.877" y1="0.087" x2="-0.526" y2="1.167" xlink:href="#linear-gradient-15"/>
+    <linearGradient id="linear-gradient-21" x1="0.501" y1="0.017" x2="0.486" y2="1.052" xlink:href="#linear-gradient-17"/>
+    <linearGradient id="linear-gradient-22" x1="0.041" y1="0.387" x2="1.649" y2="0.766" xlink:href="#linear-gradient-19"/>
+    <linearGradient id="linear-gradient-23" x1="0.824" y1="0.873" x2="-0.383" y2="-0.046" xlink:href="#linear-gradient-15"/>
+    <linearGradient id="linear-gradient-24" x1="0.724" y1="0.46" x2="-0.566" y2="1.422" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#faaf40"/>
+      <stop offset="0.23" stop-color="#fab53f"/>
+      <stop offset="0.54" stop-color="#fac63a"/>
+      <stop offset="0.89" stop-color="#f9e134"/>
+      <stop offset="1" stop-color="#f9ec31"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-25" x1="0.5" y1="0.959" x2="0.5" y2="-0.042" xlink:href="#linear-gradient-15"/>
+    <linearGradient id="linear-gradient-26" x1="0.822" y1="0.876" x2="-0.381" y2="-0.049" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#faaf40"/>
+      <stop offset="0.94" stop-color="#f9ec31"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-27" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#faaf40"/>
+      <stop offset="0.54" stop-color="#f9da35"/>
+      <stop offset="0.82" stop-color="#f9ec31"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-28" x1="0.489" y1="1.576" x2="0.507" y2="-0.196" xlink:href="#linear-gradient-27"/>
+    <linearGradient id="linear-gradient-29" x1="0.415" y1="1.569" x2="0.587" y2="-0.908" xlink:href="#linear-gradient-27"/>
+    <linearGradient id="linear-gradient-30" x1="-1.023" y1="0.5" x2="0.251" y2="0.5" xlink:href="#linear-gradient-27"/>
+  </defs>
+  <g id="Mask_Group_21635" data-name="Mask Group 21635" transform="translate(-1307 -285)" clip-path="url(#clip-path)">
+    <g id="Paza1001-Aug_1_" data-name="Paza1001-Aug (1)" transform="translate(1296.176 272.843)">
+      <g id="Layer_1" data-name="Layer 1" transform="translate(-3.176 -1.542)">
+        <circle id="Ellipse_71" data-name="Ellipse 71" cx="34.301" cy="34.301" r="34.301" transform="translate(0 48.51) rotate(-45)" fill="url(#linear-gradient)"/>
+        <circle id="Ellipse_72" data-name="Ellipse 72" cx="33.847" cy="33.847" r="33.847" transform="translate(0.679 48.327) rotate(-45)" fill="url(#linear-gradient-2)"/>
+        <circle id="Ellipse_73" data-name="Ellipse 73" cx="31.653" cy="31.653" r="31.653" transform="translate(4.232 48.55) rotate(-45)" fill="url(#linear-gradient-3)"/>
+        <circle id="Ellipse_74" data-name="Ellipse 74" cx="31.419" cy="31.419" r="31.419" transform="translate(17.859 17.331)" fill="url(#linear-gradient-4)"/>
+        <path id="Path_27309" data-name="Path 27309" d="M906.91,322.29" transform="translate(-856.957 -273.801)" fill="#fff"/>
+        <path id="Path_27310" data-name="Path 27310" d="M871.469,317.389a26.454,26.454,0,1,1,26.45-26.453A26.455,26.455,0,0,1,871.469,317.389Zm0-52.612a26.183,26.183,0,1,0,0-.018Z" transform="translate(-822.892 -241.986)" fill="url(#linear-gradient-5)"/>
+        <rect id="Rectangle_8653" data-name="Rectangle 8653" width="0.445" height="0.913" rx="0.223" transform="matrix(0.634, -0.773, 0.773, 0.634, 47.598, 25.859)" opacity="0.3" fill="url(#linear-gradient-6)"/>
+        <rect id="Rectangle_8654" data-name="Rectangle 8654" width="0.445" height="0.913" rx="0.223" transform="translate(48.855 26.441) rotate(-130.48)" opacity="0.3" fill="url(#linear-gradient-7)"/>
+        <rect id="Rectangle_8655" data-name="Rectangle 8655" width="0.445" height="0.913" rx="0.223" transform="matrix(0.634, -0.773, 0.773, 0.634, 47.597, 69.122)" opacity="0.3" fill="url(#linear-gradient-8)"/>
+        <rect id="Rectangle_8656" data-name="Rectangle 8656" width="0.445" height="0.913" rx="0.223" transform="translate(48.855 69.705) rotate(-130.48)" opacity="0.3" fill="url(#linear-gradient-9)"/>
+        <g id="Group_21611" data-name="Group 21611" transform="translate(22.279 23.051)" opacity="0.3">
+          <g id="Group_21610" data-name="Group 21610" clip-path="url(#clip-path-2)">
+            <path id="Path_27311" data-name="Path 27311" d="M905,357.343v-9.4l1.214-1.327h.063a19.786,19.786,0,0,0,17.942-16.948l.319.045a20.091,20.091,0,0,1-18.171,17.223l-1.043,1.138v9.272Z" transform="translate(-878.186 -300.913)" fill="#f9ca06"/>
+            <path id="Path_27312" data-name="Path 27312" d="M913.47,297.018V281.7l1.754-1.282.076.027a20.276,20.276,0,0,1,13.041,12.717l-.306.1a19.948,19.948,0,0,0-12.748-12.487l-1.488,1.088v15.15Z" transform="translate(-882.847 -273.81)" fill="#f9c44e"/>
+            <rect id="Rectangle_8657" data-name="Rectangle 8657" width="0.324" height="0.967" transform="translate(20.514 54.946)" fill="url(#linear-gradient-10)"/>
+            <path id="Path_27313" data-name="Path 27313" d="M849.12,293.092a24.678,24.678,0,1,1,31.365,23.743l-.841,1.106v5.167h-.324v-5.279l.976-1.277h.049a24.35,24.35,0,1,0-13.1,0h.054l.387.481-.252.2-.324-.4A24.732,24.732,0,0,1,849.12,293.092Z" transform="translate(-847.434 -267.195)" fill="url(#linear-gradient-11)"/>
+            <path id="Path_27314" data-name="Path 27314" d="M861.46,293.164A20.275,20.275,0,0,1,874.5,280.447l.076-.027,1.754,1.282v6.075h-.324v-5.909l-1.488-1.088a19.934,19.934,0,0,0-12.753,12.492Z" transform="translate(-854.225 -273.81)" fill="#f9c44e"/>
+            <path id="Path_27315" data-name="Path 27315" d="M859.51,329.7l.319-.045a19.786,19.786,0,0,0,17.933,16.948h.063l1.214,1.327v9.4h-.328v-9.268l-1.043-1.138A20.092,20.092,0,0,1,859.51,329.7Z" transform="translate(-853.152 -300.908)" fill="#f9ca06"/>
+            <path id="Path_27316" data-name="Path 27316" d="M910.66,292.724V278.393l1.641-1.313h.077a21.4,21.4,0,0,1,15.59,14.246l.067.211H913.291v-.324h14.3a21.076,21.076,0,0,0-15.208-13.8l-1.4,1.115v14.2Z" transform="translate(-881.301 -271.972)" fill="#f9c44e"/>
+            <path id="Path_27317" data-name="Path 27317" d="M905,282.648v-10.2l1.452-1.349h.072a23.63,23.63,0,0,1,21.135,18.846l.036.193H911.507v-.324H927.29a23.3,23.3,0,0,0-20.712-18.387l-1.246,1.142v10.055Z" transform="translate(-878.186 -268.681)" fill="#f9c44e"/>
+            <path id="Path_27318" data-name="Path 27318" d="M907.85,291.013V275.3l1.542-1.327h.072a22.362,22.362,0,0,1,18.4,16.6l.054.2H912.626v-.324h14.839A22.034,22.034,0,0,0,909.478,274.3l-1.318,1.133V291Z" transform="translate(-879.754 -270.26)" fill="#f9c44e"/>
+            <path id="Path_27319" data-name="Path 27319" d="M907.85,357.133v-8.377L909,347.442h.059A21.04,21.04,0,0,0,926.9,329.694H914.424v-.324h12.852v.184a21.369,21.369,0,0,1-18.09,18.2l-.989,1.133v8.256Z" transform="translate(-879.754 -300.748)" fill="#f9ca06"/>
+            <path id="Path_27320" data-name="Path 27320" d="M910.66,348.515l1.084-1.3h.054a22.173,22.173,0,0,0,17.933-19.637h-7.055v-.324h7.406v.175a22.484,22.484,0,0,1-18.153,20.1L911,348.646v7.231h-.324Z" transform="translate(-881.301 -299.581)" fill="#f9ca06"/>
+            <path id="Path_27321" data-name="Path 27321" d="M913.47,354.532V348.21l1.025-1.3h.054a23.262,23.262,0,0,0,17.87-21.481H917.072v-.324h15.685v.166a23.594,23.594,0,0,1-18.073,21.944l-.9,1.115v6.21Z" transform="translate(-882.847 -298.404)" fill="#f9ca06"/>
+            <path id="Path_27322" data-name="Path 27322" d="M856.94,329.35h14.309v.324h-13.94a21.036,21.036,0,0,0,17.843,17.749h.063l1.147,1.318v1.835h-.324v-1.713l-.989-1.133a21.364,21.364,0,0,1-18.081-18.194Z" transform="translate(-851.737 -300.737)" fill="#f9ca06"/>
+            <rect id="Rectangle_8658" data-name="Rectangle 8658" width="0.324" height="1.439" transform="translate(24.305 54.946)" fill="url(#linear-gradient-12)"/>
+            <rect id="Rectangle_8659" data-name="Rectangle 8659" width="0.324" height="1.178" transform="translate(21.778 54.946)" fill="url(#linear-gradient-13)"/>
+            <path id="Path_27323" data-name="Path 27323" d="M851.6,325.09h15.815v.324H851.937a23.284,23.284,0,0,0,17.884,21.481h.054l.976,1.232-.252.2-.9-1.142a23.612,23.612,0,0,1-18.086-21.944Z" transform="translate(-848.799 -298.393)" fill="#f9ca06"/>
+            <rect id="Rectangle_8660" data-name="Rectangle 8660" width="0.324" height="1.336" transform="translate(23.041 54.946)" fill="url(#linear-gradient-14)"/>
+            <path id="Path_27324" data-name="Path 27324" d="M854.22,327.22h13.747v.324h-13.4a22.16,22.16,0,0,0,17.888,19.637h.058l1.084,1.309v.9h-.324v-.773l-.935-1.129A22.484,22.484,0,0,1,854.229,327.4Z" transform="translate(-850.24 -299.565)" fill="#f9ca06"/>
+            <path id="Path_27325" data-name="Path 27325" d="M858.69,291.537l.068-.211a21.4,21.4,0,0,1,15.59-14.246h.076l1.641,1.313v13.369h-.324V278.528l-1.4-1.115a21.076,21.076,0,0,0-15.208,13.8h14.443v.324Z" transform="translate(-852.7 -271.972)" fill="#f9c44e"/>
+            <path id="Path_27326" data-name="Path 27326" d="M855.52,290.8l.054-.2a22.362,22.362,0,0,1,18.4-16.6h.072l1.542,1.327v13.333h-.324v-13.2l-1.318-1.133a22.034,22.034,0,0,0-17.987,16.148h13.189v.324Z" transform="translate(-850.956 -270.277)" fill="#f9c44e"/>
+            <path id="Path_27327" data-name="Path 27327" d="M852.52,290.189l.036-.193a23.64,23.64,0,0,1,21.112-18.846h.072l1.452,1.349v14.6h-.324V272.62l-1.246-1.142a23.311,23.311,0,0,0-20.708,18.387h16.8v.324Z" transform="translate(-849.305 -268.708)" fill="#f9c44e"/>
+          </g>
+        </g>
+        <path id="Path_27328" data-name="Path 27328" d="M105.7,124.45v5.868L120.454,121l-4.767-2.536Z" transform="translate(-56.741 -64.498)" fill="url(#linear-gradient-15)"/>
+        <g id="Group_21612" data-name="Group 21612" transform="translate(33.243 31.105)">
+          <path id="Path_27329" data-name="Path 27329" d="M79.757,99.126l6.066,3.809,15.069-8.7v-17.4l-15.069-8.7-15.073,8.7v8.117l5.081-1.893V79.763l9.992-5.769,9.987,5.769V91.3l-9.987,5.769-5.805-3.436Z" transform="translate(-70.75 -67.905)" fill="url(#linear-gradient-16)"/>
+          <path id="Path_27330" data-name="Path 27330" d="M71.22,86.98v17.007l4.821,3.076L76.3,89.916Z" transform="translate(-71.009 -78.279)" fill="url(#linear-gradient-17)"/>
+          <path id="Path_27331" data-name="Path 27331" d="M71.22,76.331,76.3,79.268,86.289,73.5V67.63Z" transform="translate(-71.009 -67.63)" fill="url(#linear-gradient-18)"/>
+          <path id="Path_27332" data-name="Path 27332" d="M91.505,124.35l-.265,5.5,6.066,3.8v-5.864Z" transform="translate(-82.026 -98.844)" fill="url(#linear-gradient-19)"/>
+          <path id="Path_27333" data-name="Path 27333" d="M870.27,321.65" transform="translate(-870.036 -304.553)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+          <path id="Path_27334" data-name="Path 27334" d="M71.27,76.951l15.073-8.7,15.069,8.7v17.4l-15.069,8.7-6.066-3.8.261-5.5,5.805,3.436,9.987-5.769V79.883l-9.987-5.769-9.992,5.769-.261,16.876L71.27,93.684Z" transform="translate(-71.036 -67.971)" fill="none"/>
+          <path id="Path_27335" data-name="Path 27335" d="M881.57,310.12" transform="translate(-876.255 -298.208)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+          <path id="Path_27336" data-name="Path 27336" d="M903.91,323.56" transform="translate(-888.549 -305.604)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        </g>
+        <path id="Path_27337" data-name="Path 27337" d="M94.32,97.36l5.113-2.64,4.879,2.851-.085,5.558-5.189,2.712-4.717-2.909Z" transform="translate(-50.479 -51.433)" fill="none" stroke="#704a1d" stroke-width="0.25" opacity="0.51"/>
+        <path id="Path_27338" data-name="Path 27338" d="M105.151,125.875l-.031,5.414L120,122.705l-4.681-2.635Z" transform="translate(-56.422 -65.384)" opacity="0.7" fill="url(#linear-gradient-20)"/>
+        <g id="Group_21613" data-name="Group 21613" transform="translate(33.629 39.937)" opacity="0.57">
+          <path id="Path_27339" data-name="Path 27339" d="M71.61,87.27V104.1l4.821,3.071.261-16.966Z" transform="translate(-71.61 -87.27)" fill="url(#linear-gradient-21)"/>
+        </g>
+        <path id="Path_27340" data-name="Path 27340" d="M92.748,125.05l-.238,5.009L98.2,133.6v-5.338Z" transform="translate(-49.482 -68.125)" opacity="0.63" fill="url(#linear-gradient-22)"/>
+        <path id="Path_27341" data-name="Path 27341" d="M105.57,68.09v5.868l9.744,5.765,5.081-2.932Z" transform="translate(-56.67 -36.778)" opacity="0.6" fill="url(#linear-gradient-23)"/>
+        <path id="Path_27342" data-name="Path 27342" d="M71.61,76.715,86.881,68.09v5.868l-10.19,5.693Z" transform="translate(-37.981 -36.778)" opacity="0.7" fill="url(#linear-gradient-24)"/>
+        <path id="Path_27343" data-name="Path 27343" d="M126.76,90.292l5.081-2.932.027,17.339-5.108-2.873Z" transform="translate(-68.331 -47.383)" opacity="0.6" fill="url(#linear-gradient-25)"/>
+        <path id="Path_27344" data-name="Path 27344" d="M105.57,68.09l.18,6.012,9.61,5.549,5.081-2.936Z" transform="translate(-56.67 -36.778)" fill="url(#linear-gradient-26)"/>
+        <path id="Path_27345" data-name="Path 27345" d="M870.27,321.53" transform="translate(-836.794 -273.382)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <path id="Path_27346" data-name="Path 27346" d="M71.27,76.831l15.073-8.7,15.069,8.7v17.4l-15.069,8.7-6.066-3.809.261-5.5,5.805,3.436L96.33,91.3V79.763l-9.987-5.769-9.992,5.769-.261,16.876L71.27,93.564Z" transform="translate(-37.794 -36.8)" fill="none"/>
+        <path id="Path_27347" data-name="Path 27347" d="M881.57,310" transform="translate(-843.012 -267.037)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <path id="Path_27348" data-name="Path 27348" d="M903.91,323.44" transform="translate(-855.307 -274.433)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <path id="Path_27349" data-name="Path 27349" d="M93.92,96.569l5.3-2.739,5.054,2.959-5.356,2.774Z" transform="translate(-50.258 -50.943)" fill="url(#linear-gradient-27)"/>
+        <path id="Path_27350" data-name="Path 27350" d="M110.254,100.41l-.085,5.751-5.378,2.81.108-5.787Z" transform="translate(-56.24 -54.565)" fill="url(#linear-gradient-28)"/>
+        <path id="Path_27351" data-name="Path 27351" d="M93.92,99.92l5,2.995-.108,5.787-4.888-3.013Z" transform="translate(-50.258 -54.295)" fill="url(#linear-gradient-29)"/>
+        <g id="Group_21614" data-name="Group 21614" transform="translate(43.662 42.887)" opacity="0.51">
+          <path id="Path_27352" data-name="Path 27352" d="M93.92,96.569l5.3-2.739,5.054,2.959-5.356,2.774Z" transform="translate(-93.92 -93.83)" fill="url(#linear-gradient-30)"/>
+          <path id="Path_27353" data-name="Path 27353" d="M110.254,100.41l-.085,5.751-5.378,2.81.108-5.787Z" transform="translate(-99.902 -97.451)" fill="url(#linear-gradient-28)"/>
+          <path id="Path_27354" data-name="Path 27354" d="M93.92,99.92l5,2.995-.108,5.787-4.888-3.013Z" transform="translate(-93.92 -97.181)" fill="url(#linear-gradient-29)"/>
+        </g>
+        <g id="Group_21621" data-name="Group 21621" transform="translate(25.589 46.443)">
+          <g id="Group_21617" data-name="Group 21617" transform="translate(0)">
+            <g id="Group_21615" data-name="Group 21615" transform="translate(0 0.031)">
+              <path id="Path_27355" data-name="Path 27355" d="M55.025,102.125l.184.324-.369.643H54.1l-.369-.643.369-.639h.391l-.126.216h-.139l-.243.423.243.427h.49l.247-.427-.18-.324Z" transform="translate(-53.73 -101.81)" fill="#d18f37"/>
+              <path id="Path_27356" data-name="Path 27356" d="M54.55,101.81h.391l-.126.216h-.139Z" transform="translate(-54.181 -101.81)" fill="#d18f37"/>
+              <path id="Path_27357" data-name="Path 27357" d="M55.034,102.772l-.184-.319.369-.643h.742l.369.643-.189.328-.18.31h-.391l.126-.216h.139l.247-.423-.247-.427h-.49l-.247.427.189.319" transform="translate(-54.346 -101.81)" fill="#d18f37"/>
+              <path id="Path_27358" data-name="Path 27358" d="M55.67,101.81h.742l-.126.216H55.8Z" transform="translate(-54.798 -101.81)" fill="#d18f37"/>
+              <path id="Path_27359" data-name="Path 27359" d="M54.85,103.23l.184.324h.252l-.189-.324" transform="translate(-54.346 -102.591)" fill="#d18f37"/>
+              <path id="Path_27360" data-name="Path 27360" d="M854.4,319.24" transform="translate(-853.649 -318.597)" fill="#d18f37"/>
+              <path id="Path_27361" data-name="Path 27361" d="M57.04,103.663l.247-.423h.247l-.189.328-.18.31Z" transform="translate(-55.552 -102.597)" fill="#d18f37"/>
+              <path id="Path_27362" data-name="Path 27362" d="M54.1,101.81l.126.216-.243.423H53.73Z" transform="translate(-53.73 -101.81)" fill="#d18f37"/>
+              <path id="Path_27363" data-name="Path 27363" d="M56.07,102.51h.243l.184.324H56.25Z" transform="translate(-55.018 -102.195)" fill="#d18f37"/>
+              <path id="Path_27364" data-name="Path 27364" d="M54.55,104.4l.126-.216h.49l.126.216Z" transform="translate(-54.181 -103.114)" fill="#d18f37"/>
+            </g>
+            <g id="Group_21616" data-name="Group 21616" transform="translate(1.736)">
+              <path id="Path_27365" data-name="Path 27365" d="M58.885,102.055l.184.328-.369.639h-.742l-.369-.639.369-.643h.391l-.126.216h-.139l-.247.427.247.423h.49l.247-.423-.18-.328Z" transform="translate(-57.59 -101.74)" fill="#d18f37"/>
+              <path id="Path_27366" data-name="Path 27366" d="M58.41,101.74H58.8l-.126.216h-.139Z" transform="translate(-58.041 -101.74)" fill="#d18f37"/>
+              <path id="Path_27367" data-name="Path 27367" d="M58.89,102.712l-.18-.324.369-.639h.737l.373.639-.193.328-.18.31h-.387l.126-.216h.139l.243-.423-.243-.427H59.2l-.247.427.184.324" transform="translate(-58.206 -101.746)" fill="#d18f37"/>
+              <path id="Path_27368" data-name="Path 27368" d="M59.53,101.75h.737l-.121.211h-.49Z" transform="translate(-58.658 -101.746)" fill="#d18f37"/>
+              <path id="Path_27369" data-name="Path 27369" d="M58.71,103.17l.18.319h.252l-.184-.319" transform="translate(-58.206 -102.527)" fill="#d18f37"/>
+              <path id="Path_27370" data-name="Path 27370" d="M858.26,319.17" transform="translate(-857.509 -318.527)" fill="#d18f37"/>
+              <path id="Path_27371" data-name="Path 27371" d="M60.9,103.593l.243-.423h.252l-.193.328-.18.31Z" transform="translate(-59.412 -102.527)" fill="#d18f37"/>
+              <path id="Path_27372" data-name="Path 27372" d="M57.959,101.74l.126.216-.247.427H57.59Z" transform="translate(-57.59 -101.74)" fill="#d18f37"/>
+              <path id="Path_27373" data-name="Path 27373" d="M59.93,102.44h.243l.184.328H60.11Z" transform="translate(-58.878 -102.125)" fill="#d18f37"/>
+              <path id="Path_27374" data-name="Path 27374" d="M58.41,104.326l.126-.216h.49l.126.216Z" transform="translate(-58.041 -103.044)" fill="#d18f37"/>
+            </g>
+          </g>
+          <g id="Group_21620" data-name="Group 21620" transform="translate(3.471)">
+            <g id="Group_21618" data-name="Group 21618" transform="translate(0 0.031)">
+              <path id="Path_27375" data-name="Path 27375" d="M62.745,102.125l.184.324-.373.643h-.737l-.369-.643.369-.639h.387l-.121.216h-.139l-.247.423.247.427h.49l.243-.427-.18-.324Z" transform="translate(-61.45 -101.81)" fill="#d18f37"/>
+              <path id="Path_27376" data-name="Path 27376" d="M62.27,101.81h.387l-.121.216H62.4Z" transform="translate(-61.901 -101.81)" fill="#d18f37"/>
+              <path id="Path_27377" data-name="Path 27377" d="M62.744,102.772l-.184-.319.369-.643h.742l.369.643-.189.328-.18.31h-.391l.126-.216h.139l.247-.423-.247-.427h-.49l-.243.427.184.319" transform="translate(-62.061 -101.81)" fill="#d18f37"/>
+              <path id="Path_27378" data-name="Path 27378" d="M63.38,101.81h.742l-.126.216h-.49Z" transform="translate(-62.512 -101.81)" fill="#d18f37"/>
+              <path id="Path_27379" data-name="Path 27379" d="M62.56,103.23l.184.324H63l-.184-.324" transform="translate(-62.061 -102.591)" fill="#d18f37"/>
+              <path id="Path_27380" data-name="Path 27380" d="M862.12,319.24" transform="translate(-861.369 -318.597)" fill="#d18f37"/>
+              <path id="Path_27381" data-name="Path 27381" d="M64.75,103.663,65,103.24h.247l-.189.328-.18.31Z" transform="translate(-63.266 -102.597)" fill="#d18f37"/>
+              <path id="Path_27382" data-name="Path 27382" d="M61.819,101.81l.126.216-.247.423H61.45Z" transform="translate(-61.45 -101.81)" fill="#d18f37"/>
+              <path id="Path_27383" data-name="Path 27383" d="M63.78,102.51h.247l.184.324H63.96Z" transform="translate(-62.732 -102.195)" fill="#d18f37"/>
+              <path id="Path_27384" data-name="Path 27384" d="M62.27,104.4l.126-.216h.49l.121.216Z" transform="translate(-61.901 -103.114)" fill="#d18f37"/>
+            </g>
+            <g id="Group_21619" data-name="Group 21619" transform="translate(1.731)">
+              <path id="Path_27385" data-name="Path 27385" d="M66.6,102.055l.184.328-.369.639h-.737l-.373-.639.373-.643h.387l-.126.216h-.139l-.243.427.243.423h.49l.247-.423-.18-.328Z" transform="translate(-65.3 -101.74)" fill="#d18f37"/>
+              <path id="Path_27386" data-name="Path 27386" d="M66.13,101.74h.387l-.126.216h-.139Z" transform="translate(-65.757 -101.74)" fill="#d18f37"/>
+              <path id="Path_27387" data-name="Path 27387" d="M66.6,102.712l-.184-.324.369-.639h.742l.369.639-.193.328-.175.31h-.391l.126-.216H67.4l.247-.423-.247-.427h-.49l-.247.427.189.324" transform="translate(-65.916 -101.746)" fill="#d18f37"/>
+              <path id="Path_27388" data-name="Path 27388" d="M67.24,101.75h.742l-.126.211h-.49Z" transform="translate(-66.368 -101.746)" fill="#d18f37"/>
+              <path id="Path_27389" data-name="Path 27389" d="M66.42,103.17l.184.319h.252l-.189-.319" transform="translate(-65.916 -102.527)" fill="#d18f37"/>
+              <path id="Path_27390" data-name="Path 27390" d="M866,319.17" transform="translate(-865.236 -318.527)" fill="#d18f37"/>
+              <path id="Path_27391" data-name="Path 27391" d="M68.61,103.593l.247-.423H69.1l-.193.328-.175.31Z" transform="translate(-67.122 -102.527)" fill="#d18f37"/>
+              <path id="Path_27392" data-name="Path 27392" d="M65.673,101.74l.121.216-.243.427H65.3Z" transform="translate(-65.3 -101.74)" fill="#d18f37"/>
+              <path id="Path_27393" data-name="Path 27393" d="M67.64,102.44h.243l.184.328H67.82Z" transform="translate(-66.588 -102.125)" fill="#d18f37"/>
+              <path id="Path_27394" data-name="Path 27394" d="M66.13,104.326l.121-.216h.49l.126.216Z" transform="translate(-65.757 -103.044)" fill="#d18f37"/>
+            </g>
+          </g>
+        </g>
+        <g id="Group_21628" data-name="Group 21628" transform="translate(64.293 46.443)">
+          <g id="Group_21624" data-name="Group 21624">
+            <g id="Group_21622" data-name="Group 21622" transform="translate(0 0.031)">
+              <path id="Path_27395" data-name="Path 27395" d="M141.1,102.125l.184.324-.369.643h-.742l-.369-.643.369-.639h.391l-.126.216h-.139l-.247.423.247.427h.49l.243-.427-.18-.324Z" transform="translate(-139.8 -101.81)" fill="#d18f37"/>
+              <path id="Path_27396" data-name="Path 27396" d="M140.62,101.81h.391l-.126.216h-.139Z" transform="translate(-140.251 -101.81)" fill="#d18f37"/>
+              <path id="Path_27397" data-name="Path 27397" d="M141.094,102.772l-.184-.319.373-.643h.737l.373.643-.193.328-.18.31h-.391l.126-.216h.139l.247-.423-.247-.427h-.49l-.243.427.184.319" transform="translate(-140.411 -101.81)" fill="#d18f37"/>
+              <path id="Path_27398" data-name="Path 27398" d="M141.74,101.81h.737l-.126.216h-.49Z" transform="translate(-140.868 -101.81)" fill="#d18f37"/>
+              <path id="Path_27399" data-name="Path 27399" d="M140.91,103.23l.184.324h.252l-.184-.324" transform="translate(-140.411 -102.591)" fill="#d18f37"/>
+              <path id="Path_27400" data-name="Path 27400" d="M940.47,319.24" transform="translate(-939.719 -318.597)" fill="#d18f37"/>
+              <path id="Path_27401" data-name="Path 27401" d="M143.1,103.663l.247-.423h.252l-.193.328-.18.31Z" transform="translate(-141.616 -102.597)" fill="#d18f37"/>
+              <path id="Path_27402" data-name="Path 27402" d="M140.169,101.81l.126.216-.247.423H139.8Z" transform="translate(-139.8 -101.81)" fill="#d18f37"/>
+              <path id="Path_27403" data-name="Path 27403" d="M142.13,102.51h.247l.184.324h-.252Z" transform="translate(-141.082 -102.195)" fill="#d18f37"/>
+              <path id="Path_27404" data-name="Path 27404" d="M140.62,104.4l.126-.216h.49l.126.216Z" transform="translate(-140.251 -103.114)" fill="#d18f37"/>
+            </g>
+            <g id="Group_21623" data-name="Group 21623" transform="translate(1.736)">
+              <path id="Path_27405" data-name="Path 27405" d="M144.955,102.055l.18.328-.369.639h-.737l-.369-.639.369-.643h.387l-.121.216h-.144l-.243.427.243.423h.49l.247-.423-.18-.328Z" transform="translate(-143.66 -101.74)" fill="#d18f37"/>
+              <path id="Path_27406" data-name="Path 27406" d="M144.48,101.74h.387l-.121.216H144.6Z" transform="translate(-144.111 -101.74)" fill="#d18f37"/>
+              <path id="Path_27407" data-name="Path 27407" d="M144.954,102.712l-.184-.324.369-.639h.742l.369.639-.189.328-.18.31h-.391l.126-.216h.139l.247-.423-.247-.427h-.49l-.243.427.184.324" transform="translate(-144.271 -101.746)" fill="#d18f37"/>
+              <path id="Path_27408" data-name="Path 27408" d="M145.59,101.75h.742l-.126.211h-.49Z" transform="translate(-144.722 -101.746)" fill="#d18f37"/>
+              <path id="Path_27409" data-name="Path 27409" d="M144.77,103.17l.184.319h.252l-.184-.319" transform="translate(-144.271 -102.527)" fill="#d18f37"/>
+              <path id="Path_27410" data-name="Path 27410" d="M944.33,319.17" transform="translate(-943.579 -318.527)" fill="#d18f37"/>
+              <path id="Path_27411" data-name="Path 27411" d="M146.96,103.593l.247-.423h.247l-.189.328-.18.31Z" transform="translate(-145.476 -102.527)" fill="#d18f37"/>
+              <path id="Path_27412" data-name="Path 27412" d="M144.029,101.74l.121.216-.243.427h-.247Z" transform="translate(-143.66 -101.74)" fill="#d18f37"/>
+              <path id="Path_27413" data-name="Path 27413" d="M145.99,102.44h.247l.18.328h-.247Z" transform="translate(-144.942 -102.125)" fill="#d18f37"/>
+              <path id="Path_27414" data-name="Path 27414" d="M144.48,104.326l.121-.216h.49l.126.216Z" transform="translate(-144.111 -103.044)" fill="#d18f37"/>
+            </g>
+          </g>
+          <g id="Group_21627" data-name="Group 21627" transform="translate(3.467)">
+            <g id="Group_21625" data-name="Group 21625" transform="translate(0 0.031)">
+              <path id="Path_27415" data-name="Path 27415" d="M148.805,102.125l.184.324-.369.643h-.742l-.369-.643.369-.639h.391l-.126.216H148l-.243.423.243.427h.49l.247-.427-.18-.324Z" transform="translate(-147.51 -101.81)" fill="#d18f37"/>
+              <path id="Path_27416" data-name="Path 27416" d="M148.33,101.81h.391l-.126.216h-.139Z" transform="translate(-147.961 -101.81)" fill="#d18f37"/>
+              <path id="Path_27417" data-name="Path 27417" d="M148.81,102.772l-.18-.319.369-.643h.737l.373.643-.193.328-.18.31h-.387l.126-.216h.139l.243-.423-.243-.427h-.49l-.247.427.189.319" transform="translate(-148.126 -101.81)" fill="#d18f37"/>
+              <path id="Path_27418" data-name="Path 27418" d="M149.45,101.81h.737l-.121.216h-.49Z" transform="translate(-148.578 -101.81)" fill="#d18f37"/>
+              <path id="Path_27419" data-name="Path 27419" d="M148.63,103.23l.18.324h.256l-.189-.324" transform="translate(-148.126 -102.591)" fill="#d18f37"/>
+              <path id="Path_27420" data-name="Path 27420" d="M948.18,319.24" transform="translate(-947.429 -318.597)" fill="#d18f37"/>
+              <path id="Path_27421" data-name="Path 27421" d="M150.82,103.663l.243-.423h.252l-.193.328-.18.31Z" transform="translate(-149.332 -102.597)" fill="#d18f37"/>
+              <path id="Path_27422" data-name="Path 27422" d="M147.879,101.81l.126.216-.243.423h-.252Z" transform="translate(-147.51 -101.81)" fill="#d18f37"/>
+              <path id="Path_27423" data-name="Path 27423" d="M149.85,102.51h.243l.184.324h-.247Z" transform="translate(-148.798 -102.195)" fill="#d18f37"/>
+              <path id="Path_27424" data-name="Path 27424" d="M148.33,104.4l.126-.216h.49l.126.216Z" transform="translate(-147.961 -103.114)" fill="#d18f37"/>
+            </g>
+            <g id="Group_21626" data-name="Group 21626" transform="translate(1.736)">
+              <path id="Path_27425" data-name="Path 27425" d="M152.665,102.055l.184.328-.369.639h-.742l-.369-.639.369-.643h.391l-.126.216h-.139l-.247.427.247.423h.49l.243-.423-.175-.328Z" transform="translate(-151.37 -101.74)" fill="#d18f37"/>
+              <path id="Path_27426" data-name="Path 27426" d="M152.19,101.74h.391l-.126.216h-.139Z" transform="translate(-151.821 -101.74)" fill="#d18f37"/>
+              <path id="Path_27427" data-name="Path 27427" d="M152.664,102.712l-.184-.324.373-.639h.737l.373.639-.193.328-.18.31H153.2l.121-.216h.144l.243-.423-.243-.427h-.495l-.243.427.184.324" transform="translate(-151.981 -101.746)" fill="#d18f37"/>
+              <path id="Path_27428" data-name="Path 27428" d="M153.31,101.75h.737l-.121.211h-.495Z" transform="translate(-152.438 -101.746)" fill="#d18f37"/>
+              <path id="Path_27429" data-name="Path 27429" d="M152.48,103.17l.184.319h.252l-.184-.319" transform="translate(-151.981 -102.527)" fill="#d18f37"/>
+              <path id="Path_27430" data-name="Path 27430" d="M952,319.17" transform="translate(-951.267 -318.527)" fill="#d18f37"/>
+              <path id="Path_27431" data-name="Path 27431" d="M154.68,103.593l.243-.423h.252l-.193.328-.18.31Z" transform="translate(-153.192 -102.527)" fill="#d18f37"/>
+              <path id="Path_27432" data-name="Path 27432" d="M151.739,101.74l.126.216-.247.427h-.247Z" transform="translate(-151.37 -101.74)" fill="#d18f37"/>
+              <path id="Path_27433" data-name="Path 27433" d="M153.71,102.44h.243l.184.328h-.252Z" transform="translate(-152.658 -102.125)" fill="#d18f37"/>
+              <path id="Path_27434" data-name="Path 27434" d="M152.19,104.326l.126-.216h.49l.126.216Z" transform="translate(-151.821 -103.044)" fill="#d18f37"/>
+            </g>
+          </g>
+        </g>
+        <text id="P" transform="translate(44.681 19.2) rotate(-6.23)" fill="#f9cb0d" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">P</tspan></text>
+        <text id="A" transform="translate(47.549 18.945) rotate(-0.573)" fill="#f9cb0d" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">A</tspan></text>
+        <text id="Z" transform="translate(50.433 18.966) rotate(5.143)" fill="#f9cb0d" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">Z</tspan></text>
+        <text id="A-2" data-name="A" transform="matrix(0.983, 0.182, -0.182, 0.983, 53.279, 19.271)" fill="#f9cb0d" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">A</tspan></text>
+        <text id="_1" data-name="1" transform="matrix(0.946, 0.325, -0.325, 0.946, 58.096, 20.45)" fill="#f9cb0d" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">1</tspan></text>
+        <text id="_0" data-name="0" transform="translate(59.735 21.039) rotate(23.499)" fill="#f9cb0d" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">0</tspan></text>
+        <text id="_0-2" data-name="0" transform="translate(62.341 22.226) rotate(28.61)" fill="#f9cb0d" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">0</tspan></text>
+        <text id="_1-2" data-name="1" transform="matrix(0.836, 0.548, -0.548, 0.836, 64.804, 23.66)" fill="#f9cb0d" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">1</tspan></text>
+        <text id="_0-3" data-name="0" transform="translate(66.245 24.628) rotate(37.65)" fill="#f9cb0d" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">0</tspan></text>
+        <text id="_0-4" data-name="0" transform="matrix(0.732, 0.682, -0.682, 0.732, 68.48, 26.428)" fill="#f9cb0d" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">0</tspan></text>
+        <text id="_1-3" data-name="1" transform="translate(70.523 28.436) rotate(47.842)" fill="#f9cb0d" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">1</tspan></text>
+        <text id="_0-5" data-name="0" transform="translate(71.682 29.737) rotate(52.326)" fill="#f9cb0d" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">0</tspan></text>
+        <text id="_0-6" data-name="0" transform="matrix(0.541, 0.841, -0.841, 0.541, 73.389, 32.022)" fill="#f9cb0d" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">0</tspan></text>
+        <text id="_1-4" data-name="1" transform="matrix(0.468, 0.884, -0.884, 0.468, 74.866, 34.472)" fill="#f9cb0d" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">1</tspan></text>
+        <text id="_0-7" data-name="0" transform="matrix(0.399, 0.917, -0.917, 0.399, 75.663, 36.022)" fill="#f9cb0d" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">0</tspan></text>
+        <text id="_0-8" data-name="0" transform="translate(76.746 38.668) rotate(71.928)" fill="#f9cb0d" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">0</tspan></text>
+        <text id="_1-5" data-name="1" transform="translate(77.569 41.4) rotate(76.34)" fill="#f9cb0d" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">1</tspan></text>
+        <text id="_0-9" data-name="0" transform="matrix(0.161, 0.987, -0.987, 0.161, 77.96, 43.096)" fill="#f9cb0d" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">0</tspan></text>
+        <text id="_0-10" data-name="0" transform="translate(78.364 45.932) rotate(86.26)" fill="#f9cb0d" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">0</tspan></text>
+        <text id="_1-6" data-name="1" transform="translate(78.485 48.785) rotate(90.72)" fill="#f9cb0d" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">1</tspan></text>
+        <text id="_0-11" data-name="0" transform="translate(78.441 50.522) rotate(95.16)" fill="#f9cb0d" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">0</tspan></text>
+        <text id="_0-12" data-name="0" transform="matrix(-0.19, 0.982, -0.982, -0.19, 78.124, 53.385)" fill="#f9cb0d" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">0</tspan></text>
+        <text id="_1-7" data-name="1" transform="translate(77.528 56.161) rotate(105.15)" fill="#f9cb0d" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">1</tspan></text>
+        <text id="P-2" data-name="P" transform="translate(76.326 59.828) rotate(113.63)" fill="#f9cb0d" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">P</tspan></text>
+        <text id="A-3" data-name="A" transform="matrix(-0.487, 0.873, -0.873, -0.487, 75.124, 62.441)" fill="#f9cb0d" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">A</tspan></text>
+        <text id="Z-2" data-name="Z" transform="matrix(-0.571, 0.821, -0.821, -0.571, 73.672, 64.924)" fill="#f9cb0d" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">Z</tspan></text>
+        <text id="A-4" data-name="A" transform="translate(72 67.248) rotate(130.14)" fill="#f9cb0d" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">A</tspan></text>
+        <text id="_1-8" data-name="1" transform="matrix(-0.751, 0.661, -0.661, -0.751, 68.586, 70.855)" fill="#f9cb0d" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">1</tspan></text>
+        <text id="_0-13" data-name="0" transform="matrix(-0.8, 0.6, -0.6, -0.8, 67.266, 71.986)" fill="#f9cb0d" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">0</tspan></text>
+        <text id="_0-14" data-name="0" transform="matrix(-0.853, 0.522, -0.522, -0.853, 64.934, 73.664)" fill="#f9cb0d" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">0</tspan></text>
+        <text id="_1-9" data-name="1" transform="translate(62.461 75.093) rotate(153.13)" fill="#f9cb0d" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">1</tspan></text>
+        <text id="_0-15" data-name="0" transform="matrix(-0.924, 0.382, -0.382, -0.924, 60.901, 75.856)" fill="#f9cb0d" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">0</tspan></text>
+        <text id="_0-16" data-name="0" transform="translate(58.231 76.896) rotate(162.87)" fill="#f9cb0d" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">0</tspan></text>
+        <text id="_1-10" data-name="1" transform="translate(55.496 77.67) rotate(167.347)" fill="#f9cb0d" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">1</tspan></text>
+        <text id="_0-17" data-name="0" transform="translate(53.789 78.027) rotate(171.77)" fill="#f9cb0d" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">0</tspan></text>
+        <text id="_0-18" data-name="0" transform="translate(50.929 78.383) rotate(177.33)" fill="#f9cb0d" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">0</tspan></text>
+        <text id="_1-11" data-name="1" transform="translate(48.095 78.451) rotate(-178.24)" fill="#f9cb0d" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">1</tspan></text>
+        <text id="_0-19" data-name="0" transform="translate(46.363 78.373) rotate(-173.8)" fill="#f9cb0d" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">0</tspan></text>
+        <text id="_0-20" data-name="0" transform="translate(43.505 78.005) rotate(-168.23)" fill="#f9cb0d" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">0</tspan></text>
+        <text id="_1-12" data-name="1" transform="translate(40.725 77.359) rotate(-163.8)" fill="#f9cb0d" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">1</tspan></text>
+        <text id="_0-21" data-name="0" transform="matrix(-0.936, -0.352, 0.352, -0.936, 39.07, 76.856)" fill="#f9cb0d" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">0</tspan></text>
+        <text id="_0-22" data-name="0" transform="translate(36.398 75.788) rotate(-153.89)" fill="#f9cb0d" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">0</tspan></text>
+        <text id="_1-13" data-name="1" transform="translate(33.871 74.479) rotate(-149.331)" fill="#f9cb0d" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">1</tspan></text>
+        <text id="_0-23" data-name="0" transform="matrix(-0.821, -0.571, 0.571, -0.821, 32.384, 73.58)" fill="#f9cb0d" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">0</tspan></text>
+        <text id="_0-24" data-name="0" transform="matrix(-0.762, -0.648, 0.648, -0.762, 30.059, 71.889)" fill="#f9cb0d" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">0</tspan></text>
+        <text id="_1-14" data-name="1" transform="matrix(-0.709, -0.705, 0.705, -0.709, 27.937, 69.997)" fill="#f9cb0d" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">1</tspan></text>
+        <text id="P-3" data-name="P" transform="matrix(-0.6, -0.8, 0.8, -0.6, 25.35, 67.138)" fill="#f9cb0d" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">P</tspan></text>
+        <text id="A-5" data-name="A" transform="matrix(-0.517, -0.856, 0.856, -0.517, 23.68, 64.802)" fill="#f9cb0d" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">A</tspan></text>
+        <text id="Z-3" data-name="Z" transform="matrix(-0.431, -0.903, 0.903, -0.431, 22.24, 62.299)" fill="#f9cb0d" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">Z</tspan></text>
+        <text id="A-6" data-name="A" transform="matrix(-0.34, -0.94, 0.94, -0.34, 21.057, 59.685)" fill="#f9cb0d" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">A</tspan></text>
+        <text id="_1-15" data-name="1" transform="matrix(-0.201, -0.98, 0.98, -0.201, 19.627, 54.936)" fill="#f9cb0d" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">1</tspan></text>
+        <text id="_0-25" data-name="0" transform="translate(19.301 53.239) rotate(-97.481)" fill="#f9cb0d" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">0</tspan></text>
+        <text id="_0-26" data-name="0" transform="translate(18.997 50.374) rotate(-91.64)" fill="#f9cb0d" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">0</tspan></text>
+        <text id="_1-16" data-name="1" transform="translate(18.98 47.516) rotate(-87.17)" fill="#f9cb0d" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">1</tspan></text>
+        <text id="_0-27" data-name="0" transform="translate(19.09 45.786) rotate(-82.519)" fill="#f9cb0d" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">0</tspan></text>
+        <text id="_0-28" data-name="0" transform="translate(19.509 42.942) rotate(-77.347)" fill="#f9cb0d" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">0</tspan></text>
+        <text id="_1-17" data-name="1" transform="translate(20.209 40.176) rotate(-72.646)" fill="#f9cb0d" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">1</tspan></text>
+        <text id="_0-29" data-name="0" transform="translate(20.741 38.525) rotate(-68.36)" fill="#f9cb0d" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">0</tspan></text>
+        <text id="_0-30" data-name="0" transform="translate(21.852 35.882) rotate(-62.87)" fill="#f9cb0d" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">0</tspan></text>
+        <text id="_1-18" data-name="1" transform="matrix(0.522, -0.853, 0.853, 0.522, 23.209, 33.378)" fill="#f9cb0d" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">1</tspan></text>
+        <text id="_0-31" data-name="0" transform="translate(24.137 31.905) rotate(-53.931)" fill="#f9cb0d" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">0</tspan></text>
+        <text id="_0-32" data-name="0" transform="matrix(0.66, -0.75, 0.75, 0.66, 25.866, 29.619)" fill="#f9cb0d" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">0</tspan></text>
+        <text id="_1-19" data-name="1" transform="translate(27.797 27.527) rotate(-44.15)" fill="#f9cb0d" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">1</tspan></text>
+        <text id="_0-33" data-name="0" transform="matrix(0.769, -0.639, 0.639, 0.769, 29.071, 26.328)" fill="#f9cb0d" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">0</tspan></text>
+        <text id="_0-34" data-name="0" transform="translate(31.311 24.541) rotate(-34.15)" fill="#f9cb0d" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">0</tspan></text>
+        <text id="_1-20" data-name="1" transform="translate(33.704 22.995) rotate(-29.69)" fill="#f9cb0d" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">1</tspan></text>
+        <text id="_0-35" data-name="0" transform="matrix(0.904, -0.427, 0.427, 0.904, 35.229, 22.153)" fill="#f9cb0d" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">0</tspan></text>
+        <text id="_0-36" data-name="0" transform="translate(37.848 20.981) rotate(-19.74)" fill="#f9cb0d" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">0</tspan></text>
+        <text id="_1-21" data-name="1" transform="translate(40.555 20.078) rotate(-15.27)" fill="#f9cb0d" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">1</tspan></text>
+        <text id="P-4" data-name="P" transform="translate(44.569 19.223) rotate(-6.34)" fill="#c7892b" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">P</tspan></text>
+        <text id="A-7" data-name="A" transform="translate(47.431 18.958) rotate(-0.84)" fill="#c7892b" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">A</tspan></text>
+        <text id="Z-4" data-name="Z" transform="translate(50.306 18.974) rotate(4.74)" fill="#c7892b" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">Z</tspan></text>
+        <text id="A-8" data-name="A" transform="translate(53.165 19.266) rotate(10.3)" fill="#c7892b" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">A</tspan></text>
+        <text id="_1-22" data-name="1" transform="translate(57.987 20.43) rotate(18.8)" fill="#c7892b" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">1</tspan></text>
+        <text id="_0-37" data-name="0" transform="translate(59.622 21.012) rotate(23.19)" fill="#c7892b" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">0</tspan></text>
+        <text id="_0-38" data-name="0" transform="translate(62.242 22.194) rotate(28.61)" fill="#c7892b" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">0</tspan></text>
+        <text id="_1-23" data-name="1" transform="matrix(0.838, 0.546, -0.546, 0.838, 64.704, 23.616)" fill="#c7892b" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">1</tspan></text>
+        <text id="_0-39" data-name="0" transform="translate(66.151 24.588) rotate(37.674)" fill="#c7892b" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">0</tspan></text>
+        <text id="_0-40" data-name="0" transform="translate(68.396 26.379) rotate(43)" fill="#c7892b" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">0</tspan></text>
+        <text id="_1-24" data-name="1" transform="translate(70.432 28.371) rotate(47.43)" fill="#c7892b" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">1</tspan></text>
+        <text id="_0-41" data-name="0" transform="matrix(0.617, 0.787, -0.787, 0.617, 71.596, 29.666)" fill="#c7892b" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">0</tspan></text>
+        <text id="_0-42" data-name="0" transform="matrix(0.541, 0.841, -0.841, 0.541, 73.317, 31.959)" fill="#c7892b" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">0</tspan></text>
+        <text id="_1-25" data-name="1" transform="translate(74.8 34.399) rotate(61.894)" fill="#c7892b" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">1</tspan></text>
+        <text id="_0-43" data-name="0" transform="matrix(0.401, 0.916, -0.916, 0.401, 75.597, 35.945)" fill="#c7892b" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">0</tspan></text>
+        <text id="_0-44" data-name="0" transform="translate(76.697 38.591) rotate(71.8)" fill="#c7892b" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">0</tspan></text>
+        <text id="_1-26" data-name="1" transform="matrix(0.24, 0.97, -0.97, 0.24, 77.525, 41.316)" fill="#c7892b" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">1</tspan></text>
+        <text id="_0-45" data-name="0" transform="matrix(0.16, 0.987, -0.987, 0.16, 77.92, 43.023)" fill="#c7892b" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">0</tspan></text>
+        <text id="_0-46" data-name="0" transform="translate(78.332 45.845) rotate(86.08)" fill="#c7892b" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">0</tspan></text>
+        <text id="_1-27" data-name="1" transform="translate(78.463 48.698) rotate(90.54)" fill="#c7892b" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">1</tspan></text>
+        <text id="_0-47" data-name="0" transform="translate(78.423 50.44) rotate(95.143)" fill="#c7892b" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">0</tspan></text>
+        <text id="_0-48" data-name="0" transform="translate(78.118 53.293) rotate(100.54)" fill="#c7892b" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">0</tspan></text>
+        <text id="_1-28" data-name="1" transform="matrix(-0.258, 0.966, -0.966, -0.258, 77.53, 56.078)" fill="#c7892b" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">1</tspan></text>
+        <text id="P-5" data-name="P" transform="translate(76.342 59.752) rotate(113.499)" fill="#c7892b" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">P</tspan></text>
+        <text id="A-9" data-name="A" transform="translate(75.145 62.368) rotate(118.96)" fill="#c7892b" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">A</tspan></text>
+        <text id="Z-5" data-name="Z" transform="matrix(-0.571, 0.821, -0.821, -0.571, 73.699, 64.857)" fill="#c7892b" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">Z</tspan></text>
+        <text id="A-10" data-name="A" transform="matrix(-0.642, 0.766, -0.766, -0.642, 72.036, 67.184)" fill="#c7892b" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">A</tspan></text>
+        <text id="_1-29" data-name="1" transform="matrix(-0.75, 0.66, -0.66, -0.75, 68.63, 70.804)" fill="#c7892b" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">1</tspan></text>
+        <text id="_0-49" data-name="0" transform="translate(67.321 71.936) rotate(142.91)" fill="#c7892b" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">0</tspan></text>
+        <text id="_0-50" data-name="0" transform="translate(64.989 73.627) rotate(148.5)" fill="#c7892b" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">0</tspan></text>
+        <text id="_1-30" data-name="1" transform="translate(62.521 75.058) rotate(152.95)" fill="#c7892b" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">1</tspan></text>
+        <text id="_0-51" data-name="0" transform="translate(60.96 75.833) rotate(157.557)" fill="#c7892b" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">0</tspan></text>
+        <text id="_0-52" data-name="0" transform="translate(58.308 76.874) rotate(162.474)" fill="#c7892b" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">0</tspan></text>
+        <text id="_1-31" data-name="1" transform="translate(55.565 77.659) rotate(167.17)" fill="#c7892b" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">1</tspan></text>
+        <text id="_0-53" data-name="0" transform="translate(53.863 78.021) rotate(171.58)" fill="#c7892b" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">0</tspan></text>
+        <text id="_0-54" data-name="0" transform="translate(51.003 78.387) rotate(177.15)" fill="#c7892b" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">0</tspan></text>
+        <text id="_1-32" data-name="1" transform="translate(48.16 78.461) rotate(-178.282)" fill="#c7892b" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">1</tspan></text>
+        <text id="_0-55" data-name="0" transform="matrix(-0.994, -0.105, 0.105, -0.994, 46.423, 78.392)" fill="#c7892b" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">0</tspan></text>
+        <text id="_0-56" data-name="0" transform="translate(43.58 78.034) rotate(-168.465)" fill="#c7892b" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">0</tspan></text>
+        <text id="_1-33" data-name="1" transform="translate(40.794 77.393) rotate(-163.98)" fill="#c7892b" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">1</tspan></text>
+        <text id="_0-57" data-name="0" transform="matrix(-0.937, -0.349, 0.349, -0.937, 39.139, 76.894)" fill="#c7892b" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">0</tspan></text>
+        <text id="_0-58" data-name="0" transform="translate(36.458 75.839) rotate(-153.947)" fill="#c7892b" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">0</tspan></text>
+        <text id="_1-34" data-name="1" transform="matrix(-0.863, -0.505, 0.505, -0.863, 33.927, 74.535)" fill="#c7892b" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">1</tspan></text>
+        <text id="_0-59" data-name="0" transform="translate(32.441 73.641) rotate(-145.3)" fill="#c7892b" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">0</tspan></text>
+        <text id="_0-60" data-name="0" transform="translate(30.104 71.949) rotate(-139.461)" fill="#c7892b" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">0</tspan></text>
+        <text id="_1-35" data-name="1" transform="translate(27.988 70.075) rotate(-135.406)" fill="#c7892b" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">1</tspan></text>
+        <text id="P-6" data-name="P" transform="translate(25.381 67.218) rotate(-126.83)" fill="#c7892b" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">P</tspan></text>
+        <text id="A-11" data-name="A" transform="matrix(-0.519, -0.855, 0.855, -0.519, 23.709, 64.89)" fill="#c7892b" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">A</tspan></text>
+        <text id="Z-6" data-name="Z" transform="translate(22.26 62.395) rotate(-115.68)" fill="#c7892b" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">Z</tspan></text>
+        <text id="A-12" data-name="A" transform="translate(21.073 59.785) rotate(-110.17)" fill="#c7892b" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">A</tspan></text>
+        <text id="_1-36" data-name="1" transform="translate(19.623 55.036) rotate(-101.78)" fill="#c7892b" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">1</tspan></text>
+        <text id="_0-61" data-name="0" transform="matrix(-0.128, -0.992, 0.992, -0.128, 19.292, 53.335)" fill="#c7892b" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">0</tspan></text>
+        <text id="_0-62" data-name="0" transform="translate(18.978 50.476) rotate(-91.718)" fill="#c7892b" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">0</tspan></text>
+        <text id="_1-37" data-name="1" transform="translate(18.958 47.622) rotate(-87.36)" fill="#c7892b" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">1</tspan></text>
+        <text id="_0-63" data-name="0" transform="matrix(0.123, -0.992, 0.992, 0.123, 19.056, 45.895)" fill="#c7892b" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">0</tspan></text>
+        <text id="_0-64" data-name="0" transform="translate(19.473 43.041) rotate(-77.35)" fill="#c7892b" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">0</tspan></text>
+        <text id="_1-38" data-name="1" transform="translate(20.153 40.289) rotate(-73.191)" fill="#c7892b" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">1</tspan></text>
+        <text id="_0-65" data-name="0" transform="translate(20.689 38.626) rotate(-68.54)" fill="#c7892b" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">0</tspan></text>
+        <text id="_0-66" data-name="0" transform="matrix(0.453, -0.891, 0.891, 0.453, 21.79, 35.978)" fill="#c7892b" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">0</tspan></text>
+        <text id="_1-39" data-name="1" transform="matrix(0.52, -0.854, 0.854, 0.52, 23.139, 33.467)" fill="#c7892b" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">1</tspan></text>
+        <text id="_0-67" data-name="0" transform="matrix(0.584, -0.812, 0.812, 0.584, 24.062, 32.001)" fill="#c7892b" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">0</tspan></text>
+        <text id="_0-68" data-name="0" transform="matrix(0.66, -0.75, 0.75, 0.66, 25.79, 29.7)" fill="#c7892b" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">0</tspan></text>
+        <text id="_1-40" data-name="1" transform="translate(27.711 27.604) rotate(-44.33)" fill="#c7892b" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">1</tspan></text>
+        <text id="_0-69" data-name="0" transform="translate(28.976 26.4) rotate(-39.88)" fill="#c7892b" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">0</tspan></text>
+        <text id="_0-70" data-name="0" transform="matrix(0.826, -0.564, 0.564, 0.826, 31.211, 24.608)" fill="#c7892b" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">0</tspan></text>
+        <text id="_1-41" data-name="1" transform="translate(33.599 23.053) rotate(-29.88)" fill="#c7892b" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">1</tspan></text>
+        <text id="_0-71" data-name="0" transform="translate(35.125 22.205) rotate(-25.43)" fill="#c7892b" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">0</tspan></text>
+        <text id="_0-72" data-name="0" transform="translate(37.739 21.028) rotate(-19.92)" fill="#c7892b" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">0</tspan></text>
+        <text id="_1-42" data-name="1" transform="translate(40.432 20.118) rotate(-15.709)" fill="#c7892b" font-size="2" font-family="Segoe UI"><tspan x="0" y="0">1</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

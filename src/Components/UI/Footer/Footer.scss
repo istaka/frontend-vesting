@@ -1,0 +1,20 @@
+@import "../../../Assets/Theme/_var.scss";
+
+.footer-style {
+  padding: 3rem 0;
+  box-shadow: 0.78px -0.37px 7px #231f201f;
+  background-color: $white;
+
+  @media (max-width: 1679px) {
+    padding: 2rem 0;
+  }
+  @media (max-width: 767px) {
+    padding: 1.5rem 0;
+  }
+  p {
+    text-align: center;
+    @media (max-width: 767px) {
+      font-size: 1rem;
+    }
+  }
+}

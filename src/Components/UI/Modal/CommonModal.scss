@@ -1,0 +1,129 @@
+@use '../../../Assets/Theme/_var.scss' as *;
+
+.ant-modal-mask {
+  background-color: #1f254cd9;
+}
+
+.common-modal {
+  .ant-modal-content {
+    border-radius: 16px;
+    overflow: hidden;
+
+    .ant-modal-header {
+      background-color: $white;
+
+      >div {
+        color: $basecolor;
+        font-size: 20px;
+        font-weight: 600;
+      }
+    }
+
+    ul {
+      margin-top: 15px;
+
+      li {
+        a {
+          // display: flex;
+          // align-items: center;
+          transition: 0.3s all ease-in-out;
+          // padding: 10px;
+          background-color: $white;
+          // margin: 10px;
+          border-radius: 30px;
+
+          .left {
+            img {
+              height: 43px;
+              width: 43px;
+              border-radius: 50%;
+              object-fit: cover;
+            }
+
+            padding-right: 10px;
+          }
+
+          .right {
+            h5 {
+              color: $primary;
+              font-size: 16px;
+            }
+
+            span {
+              color: grey;
+            }
+          }
+
+          &:hover {
+            box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+          }
+        }
+      }
+    }
+  }
+
+  &.table-modal {
+    h3 {
+      border-bottom: 1px solid grey;
+    }
+
+    width: 100% !important;
+    max-width: 620px;
+    padding: 0 10px;
+
+    .ant-modal-body {
+      padding: 0;
+
+      .common-table {
+        margin: 0;
+
+        .ant-table {
+          .ant-table-thead {
+            tr {
+              th {
+                border-bottom: 0;
+              }
+            }
+          }
+
+          td {
+            color: grey;
+          }
+        }
+      }
+    }
+  }
+}
+
+.alert_model {
+  text-align: center !important;
+
+  .msgbox {
+    background-color: $white;
+    padding: 30px 15px;
+
+    img {
+      width: 165px;
+    }
+
+    p {
+      font-size: 15px;
+      line-height: 25px;
+      max-width: unset;
+      padding: 0 10px;
+    }
+  }
+
+  .Custombtn {
+    // width: 250px;
+    margin-bottom: 30px;
+  }
+}
+
+.btn-closeRemove {
+  .ant-modal-content {
+    .ant-modal-close {
+      display: none;
+    }
+  }
+}
