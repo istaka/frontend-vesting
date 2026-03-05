@@ -30,21 +30,21 @@ const walletServices = {
             dispatch(setloader(false));
             toast.error(res);
             return;
-          } else if (res == true) {
-            const [account] = await provider?.request({
-              method: "eth_requestAccounts",
-            });
-
-            // console.log("account", account);
-            return account;
-            // return await checkVestingList(account, dispatch, chainId);
           }
         }
+
+        const [account] = await provider?.request({
+          method: "eth_requestAccounts",
+        });
+        // console.log("account", account);
+        // return await checkVestingList(account, dispatch, chainId);
+        dispatch(setloader(false));
+        return account;
       } catch (err: any) {
         console.log("connection error", err);
 
         dispatch(setloader(false));
-        if (err?.code == 4001) {
+        if (err?.code === 4001) {
           toast.error(err?.message);
         }
         return false;
