@@ -136,8 +136,8 @@ export const callGetMethod = async (
     console.error("Method:", method);
     console.error("Params:", data);
     console.error("Error Message:", error?.message);
-
-    toast.error(`Error in ${contractType} at ${dynamicAddress}: ${error?.message}`);
+    return false;
+    // toast.error(`Error in ${contractType} at ${dynamicAddress}: ${error?.message}`);
   }
 };
 
